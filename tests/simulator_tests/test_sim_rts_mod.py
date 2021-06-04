@@ -140,7 +140,7 @@ class TestSimulatorModRtsGmlcCopperSheet_csv(_SimulatorModRTSGMLC, unittest.Test
     def _set_names(self):
         self.simulator_config_filename = 'simulate_deterministic_csv.txt'
         self.results_dir_name = 'deterministic_simulation_csv_output'
-        self.baseline_dir_name = 'deterministic_simulation_csv_output_baseline'        
+        self.baseline_dir_name = 'deterministic_simulation_output_baseline'
 
 if __name__ == '__main__':
     unittest.main()
